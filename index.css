@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    height:100vh;
+    width:100vw;
+}
+.heading_div{
+    background: #412C14;
+    padding: 15px 0px;
+
+}
+.saunders{
+    font-size: 53px;
+    color:#68B9D0;
+    display:flex;
+    justify-content: center;
+    letter-spacing: 10px;
+}
+.second_heading{
+    font-size:1rem;
+    color:#68B9D0;
+    display:flex;
+    justify-content: center;
+    font-weight: 400;
+    letter-spacing: 5px;
+    padding:8px 0px ;
+    margin-right: 14%;
+}
+input{
+    width: 35%;
+    font-size: 15px;
+    padding-left: 1%;
+    background-color: #5A4738;
+    border:none;
+}
+::placeholder {
+    color: rgb(191, 190, 190);
+  }
+
+  .fa-solid{
+    background: #5A4738;
+    padding-right: 10px;
+    color: rgb(191, 190, 190);
+  }
+  .fa-solid, .fas {
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+}
+.about_div{
+    padding-left:30%;
+    background-color: #E8E8E8;
+   display: flex;
+   align-items: center;
+   gap:2%;
+   height:30px;
+   font-size: 14px;
+}
+
+/* navbar starts here------------------ */
+nav {
+    display: flex;
+    padding: 0% 1% 0% 2%;
+    background-color:#88C1D9;
+}
+ nav ul{
+    list-style:none;
+    display: flex;
+    width:100%;
+    align-items: center;
+    justify-content: space-around;
+ }
+.nav_items{
+    text-align: left;
+    background-color:#88C1D9;
+    padding:10px 10px;
+}
+nav ul a{
+    text-decoration: none;
+    color:#323232;
+    padding:10px 10px;
+}
+nav ul ul a{
+    color:white;
+    padding-left:10px;
+}
+nav ul ul{
+    margin-top: 10px;
+    display: block;
+    position: absolute;
+    background-color: #88C1D9;
+    display: none;
+    z-index: 2;
+    width: 15%;
+    line-height: 30px;
+}
+nav ul li:hover{
+    color:white;
+    background-color: #412C14;
+}
+.item1:hover .drop_down1{
+    display: block;
+}
+.drop_down1 ul{
+    background-color:#88C1D9;
+}
+nav ul li a:hover{ 
+    color:white;
+    transition: all 0.25s ease;
+}
+nav ul ul li{
+    border-bottom: 1px solid white;
+}
+.drop_down1 li .parent:hover{
+    color:white;
+} 
+/* .drop_down1 li:hover .drop_down1{
+    color:white;
+} */
+nav ul .drop{
+    width:23%;
+} 
+  
